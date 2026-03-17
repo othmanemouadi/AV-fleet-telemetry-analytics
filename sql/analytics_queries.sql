@@ -9,7 +9,6 @@ FROM av_fleet_telemetry
 GROUP BY vehicle_id
 ORDER BY avg_speed DESC;
 
-
 -- Hard Braking Events
 SELECT
     vehicle_id,
@@ -17,7 +16,6 @@ SELECT
 FROM av_fleet_telemetry
 GROUP BY vehicle_id
 ORDER BY hard_brake_events DESC;
-
 
 -- Daily Average Speed Trend
 SELECT
