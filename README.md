@@ -10,19 +10,11 @@
 
 !\[Data Engineering](https://img.shields.io/badge/Data-Engineering-green)
 
-
-
 \## Overview
-
-
 
 This project demonstrates a simplified data engineering and analytics pipeline for autonomous vehicle telemetry data.
 
-
-
 The goal is to simulate how telemetry signals from vehicles can be ingested, transformed, stored, and analyzed to generate fleet monitoring insights.
-
-
 
 The project includes a Python ETL pipeline, a ClickHouse schema, and an analytics layer built with SQL queries.
 
